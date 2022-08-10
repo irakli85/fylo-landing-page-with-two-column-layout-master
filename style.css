@@ -130,6 +130,11 @@ main div{
     color: var(--white);
 }
 
+.main-submit:hover{
+    background: var(--blue-hover);
+    cursor: pointer;
+}
+
 /* SECTION ONE MOBILE*/
 .curve{
     background: url('./images/bg-curve-mobile.svg');
