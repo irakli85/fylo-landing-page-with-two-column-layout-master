@@ -637,6 +637,15 @@ input[type="email"] {
         font-size: 8px;
     }
 
+
+    /* SECTION TWO DESKTOP */
+
+    .section-two{
+        flex-direction: row;
+        align-items: center;
+        min-height: 370px;
+    }
+
  
  }
 
