@@ -426,6 +426,41 @@ input[type="email"] {
     margin-bottom: 16px;
  }
 
+ .footer-sec-two a:hover,
+ .footer-sec-three a:hover{
+    color: var(--blue-hover);
+    cursor: pointer;
+ }
+
+ .social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 42px;
+ }
+
+ .social-icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10.82px;
+    width: 40px;
+    height: 40px;
+    border: solid 1px var(--white);
+    border-radius: 50px;
+ }
+
+ .social-icons a:hover{
+    border-color: var(--blue-hover);
+    cursor: pointer;
+ }
+
+ .social-icons a:hover #fb,
+ .social-icons a:hover #twitter,
+ .social-icons a:hover .insta{
+    fill: var(--blue-hover);
+ }
+
  
 
 
