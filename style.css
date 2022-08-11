@@ -368,6 +368,11 @@ input[type="email"] {
     color: var(--white);
  }
 
+ .sec-two-submit:hover{
+   background: var(--blue-hover);
+   cursor: pointer;
+ }
+
  /* FOOTER MOBILE */ 
 
  footer{
@@ -642,10 +647,60 @@ input[type="email"] {
 
     .section-two{
         flex-direction: row;
-        align-items: center;
         min-height: 370px;
+        align-items: flex-start;
+        justify-content: space-between;
     }
 
+    .sec-two-info{
+      align-items: flex-start;
+      margin-top: 100px;
+      margin-left: 5.55%;
+    }
+
+    .sec-two-info h2{
+      margin-top: 0;
+      font-size: 32px;
+      line-height: 48px;
+    }
+
+    .sec-two-info p{
+      text-align: left;
+      margin-left: 0;
+      max-width: 533px;
+
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    .sec-two-form{
+      margin-right: 8.33%;
+    }
+
+    .sec-two-email{
+      margin-top: 112px;
+      width: 480px;
+      height: 48px;
+      border-radius: 3.13px;
+    }
+
+    .sec-two-submit{
+      width: 200px;
+      height: 48px;
+      border-radius: 3.13px;
+
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 16px;
+    }
+
+    /* FOOTER DESKTOP */
+
+    footer{
+      flex-direction: row;
+      justify-content: space-between;
+    }
  
  }
 
