@@ -730,6 +730,16 @@ input[type="email"] {
       min-width: 110px;
     }
 
+    .footer-sec-two,
+    .footer-sec-three,
+    .social-icons{
+      margin-top: 169px;
+    }
+
+    .social-icons{
+      margin-right: 18.21%;
+    }
+
    
  
  }
