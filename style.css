@@ -701,6 +701,36 @@ input[type="email"] {
       flex-direction: row;
       justify-content: space-between;
     }
+
+    .footer-logo{
+      margin-top: 92px;
+      margin-left: 6vw;
+    }
+
+    .footer-phone,
+    .footer-email{
+      margin-top: 37px;
+      margin-left: 6vw;
+    }
+
+    .footer-phone img,
+    .footer-email img{
+      width: 20px;
+      height: 20px;
+    }
+    .footer-email{
+      margin-bottom: 160px;
+    }
+
+    .footer-sec-two a{
+      min-width: 70px;
+    }
+
+    .footer-sec-three a{
+      min-width: 110px;
+    }
+
+   
  
  }
 
