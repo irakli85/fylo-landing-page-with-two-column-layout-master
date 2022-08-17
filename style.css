@@ -369,7 +369,7 @@ input[type="email"] {
     width: 240px;
     height: 32px;
     border-radius: 1.47px;
-    margin-top: 8px;
+    margin-bottom: 8px;
     background: var(--blue);
 
     font-family: 'Raleway';
@@ -403,6 +403,12 @@ input[type="email"] {
     margin-top: 32px;
     margin-left: 10.4%;
  }
+
+.footer-phone img,
+.footer-email img{
+      width: 20px;
+      height: 20px;
+    }
 
  .footer-phone span,
  .footer-email span{
@@ -725,11 +731,7 @@ input[type="email"] {
       margin-left: 6vw;
     }
 
-    .footer-phone img,
-    .footer-email img{
-      width: 20px;
-      height: 20px;
-    }
+    
     .footer-email{
       margin-bottom: 160px;
     }
